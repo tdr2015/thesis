@@ -1,0 +1,25 @@
+Symbol,Unit,Parameter,Min,Max,Best
+l_sub,mm/yr,Rate of vertical land motion,0,0,0
+a_poly,mm,SLR in 2017,0,0,0
+b_poly,mm/yr,SLR rate,0.9,3.8,1.867
+c_poly,mm2/yr,SLR acceleration,-0.006,0.07,0.003
+c_star,mm/yr,Rate of abrupt mean sea level rise,0,20,0
+t_star,year,Timing of abrupt sea level rise,33,100,33
+r_sea,NA,Sea level response factor,0.8,1,0.9
+m_str,%,Maximum structural damage ($/m2),-0.1,0.1,0
+m_con,%,Maximum contents damage ($/m2),-0.1,0.1,0
+a_ppl,%,Average change in people per dwelling,-0.5,0.5,0
+d_i,NA,Damage index at 10cm inundation,-0.1,0.1,0
+r_str,%/year,Rate of change - structural cost,-0.001,0.001,0.01
+r_con,%/year,Rate of change - contents value,-0.001,0.001,0.01
+r_ppl,%/year,Rate of change - household composition,-0.005,0.005,0
+r,%/yr,Discount rate,0.03,0.1,0.04
+t_lead_pol_a,years,Policy lead time (Policy A - Sea Wall),3,15,5
+l_cap_pol_a,$,Upfront capital investment cost (Policy A - Sea Wall),10000000,50000000,12000000
+m_op_pol_a,$/yr,Annual maintenance cost (Policy A - Sea Wall),5000,40000,10000
+p_life_pol_a,years,Effective lifetime of policy (Policy A - Sea Wall),70,110,100
+slr,m,Mean sea level rise (m),0,2,0
+rate_op1,properties/5 yrs,Zone 4: Rate of residential retreat per 5 years,25,50,15
+rate_op2,properties/5 yrs,"Zones 1, 2, 3, 4: Rate of building redevelopment per 5 years",25,50,10
+rate_op3,properties/5 yrs,"Zones 1, 2, 3, 4: Rate of all residential retreat per 5 years",25,95,40
+rate_op4,properties/5 yrs,"Zones 1, 2, 3, 4: Rate of all property retreat per 5 years",25,95,40
